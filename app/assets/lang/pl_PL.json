@@ -1,0 +1,49 @@
+{
+    "html": {
+        "avatarOverlay": "Edytuj"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Nieprawidłowa wartość",
+                "requiredValue": "* Wymagane",
+                "userMigrated": {
+                    "title": "Błąd podczas logowania:<br>Nieprawidłowe Dane",
+                    "desc": "Próbujesz zalogować się migrowanym kontem. Spróbuj ponownie używając adresu e-mail."
+                },
+                "invalidCredentials": {
+                    "title": "Błąd podczas logowania:<br>Nieprawidłowe Dane",
+                    "desc": "Adres e-mail lub hasło jest nieprawidłowe. Spróbuj ponownie."
+                },
+                "rateLimit": {
+                    "title": "Błąd podczas logowania:<br>Za dużo prób",
+                    "desc": "Zbyt dużo prób logowa. Spróbuj ponownie później."
+                },
+                "noInternet": {
+                    "title": "Błąd podczas logowania:<br>Brak Połączenia z Internetem",
+                    "desc": "Musisz połączyć się z internetem, aby móc się zalogować. Połącz się z internetem i spróbuj ponownie."
+                },
+                "authDown": {
+                    "title": "Błąd podczas logowania:<br>Serwer autoryzacji jest offline",
+                    "desc": "Serwer autoryzacji Mojang jest aktualnie offline lub nieosiągalny. Poczekaj chwilę i spróbuj ponownie. Możesz sprawdzić status serwera na <a href=\"https://help.mojang.com/\">stronie Mojang</a>."
+                },
+                "notPaid": {
+                    "title": "Błąd podczas logowania:<br>Nie Zakupiono Gry",
+                    "desc": "Konto, na które się logujesz nie ma kupionej kopii Minecraft.<br>Możesz kupić Minecrafta na <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                },
+                "unknown": {
+                    "title": "Błąd podczas logowania:<br>Nieznany Błąd"
+                }
+            },
+            "login": "ZALOGUJ",
+            "loggingIn": "LOGOWANIE",
+            "success": "SUKCES",
+            "tryAgain": "Spróbuj ponownie"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Proszę poczekać.."
+            }
+        }
+    }
+}

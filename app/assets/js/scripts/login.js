@@ -13,8 +13,8 @@ const loginEmailError       = document.getElementById('loginEmailError')
 const loginUsername         = document.getElementById('loginUsername')
 const loginPasswordError    = document.getElementById('loginPasswordError')
 const loginPassword         = document.getElementById('loginPassword')
-const checkmarkContainer    = document.getElementById('checkmarkContainer')
-const loginRememberOption   = document.getElementById('loginRememberOption')
+// const checkmarkContainer    = document.getElementById('checkmarkContainer')
+// const loginRememberOption   = document.getElementById('loginRememberOption')
 const loginButton           = document.getElementById('loginButton')
 const loginForm             = document.getElementById('loginForm')
 
@@ -62,9 +62,9 @@ function validateEmail(value){
         } else {
             loginEmailError.style.opacity = 0
             lu = true
-            if(lp){
+            //if(lp){
                 loginDisabled(false)
-            }
+            //}
         }
     } else {
         lu = false
@@ -79,17 +79,17 @@ function validateEmail(value){
  * @param {string} value The password value.
  */
 function validatePassword(value){
-    if(value){
-        loginPasswordError.style.opacity = 0
-        lp = true
-        if(lu){
-            loginDisabled(false)
-        }
-    } else {
-        lp = false
-        showError(loginPasswordError, Lang.queryJS('login.error.invalidValue'))
-        loginDisabled(true)
-    }
+    // if(value){
+    //     loginPasswordError.style.opacity = 0
+    //     lp = true
+    //     if(lu){
+    //         loginDisabled(false)
+    //     }
+    // } else {
+    //     lp = false
+    //     showError(loginPasswordError, Lang.queryJS('login.error.invalidValue'))
+    //     loginDisabled(true)
+    // }
 }
 
 // Emphasize errors with shake when focus is lost.
@@ -147,11 +147,11 @@ function formDisabled(v){
     loginUsername.disabled = v
     loginPassword.disabled = v
     if(v){
-        checkmarkContainer.setAttribute('disabled', v)
+        //checkmarkContainer.setAttribute('disabled', v)
     } else {
-        checkmarkContainer.removeAttribute('disabled')
+        //checkmarkContainer.removeAttribute('disabled')
     }
-    loginRememberOption.disabled = v
+    //loginRememberOption.disabled = v
 }
 
 /**
@@ -173,12 +173,12 @@ function resolveError(err){
         if(err.error != null){
             if(err.error === 'ForbiddenOperationException'){
                 if(err.errorMessage != null){
-                    if(err.errorMessage === 'Invalid credentials. Invalid username or password.'){
+                    if(err.errorMessage === 'Nieprawidłowe Dane. Zły e-mail lub hasło.'){
                         return {
                             title: Lang.queryJS('login.error.invalidCredentials.title'),
                             desc: Lang.queryJS('login.error.invalidCredentials.desc')
                         }
-                    } else if(err.errorMessage === 'Invalid credentials.'){
+                    } else if(err.errorMessage === 'Nieprawidłowe Dane.'){
                         return {
                             title: Lang.queryJS('login.error.rateLimit.title'),
                             desc: Lang.queryJS('login.error.rateLimit.desc')
@@ -206,7 +206,7 @@ function resolveError(err){
         }
     }
     if(err.message != null){
-        if(err.message === 'NotPaidAccount'){
+        if(err.message === 'Brak Kupionego Minecraft'){
             return {
                 title: Lang.queryJS('login.error.notPaid.title'),
                 desc: Lang.queryJS('login.error.notPaid.desc')
@@ -294,7 +294,7 @@ loginButton.addEventListener('click', () => {
             toggleOverlay(false)
         })
         toggleOverlay(true)
-        loggerLogin.log('Error while logging in.', err)
+        loggerLogin.log('Wystąpił błąd podczas logowania.', err)
     })
 
 })

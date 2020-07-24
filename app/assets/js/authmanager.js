@@ -28,19 +28,29 @@ const loggerSuccess = LoggerUtil('%c[AuthManager]', 'color: #209b07; font-weight
  */
 exports.addAccount = async function(username, password){
     try {
-        const session = await Mojang.authenticate(username, password, ConfigManager.getClientToken())
-        if(session.selectedProfile != null){
-            const ret = ConfigManager.addAuthAccount(session.selectedProfile.id, session.accessToken, username, session.selectedProfile.name)
+        if(password != ""){
+            const session = await Mojang.authenticate(username, password, ConfigManager.getClientToken())
+            if(session.selectedProfile != null){
+                const ret = ConfigManager.addAuthAccount(session.selectedProfile.id, session.accessToken, username, session.selectedProfile.name)
+                if(ConfigManager.getClientToken() == null){
+                    ConfigManager.setClientToken(session.clientToken)
+                }
+                ConfigManager.save()
+                return ret
+            } else {
+                throw new Error('NotPaidAccount')
+            }
+        }else{
+            const ret = ConfigManager.addAuthAccount("nonpremium_" + Math.random().toString(36).substr(2, 5), "nopremium", "" + username, "" + username)
             if(ConfigManager.getClientToken() == null){
-                ConfigManager.setClientToken(session.clientToken)
+                ConfigManager.setClientToken("")
             }
             ConfigManager.save()
             return ret
-        } else {
-            throw new Error('NotPaidAccount')
         }
         
-    } catch (err){
+
+            } catch (err){
         return Promise.reject(err)
     }
 }
@@ -76,6 +86,10 @@ exports.removeAccount = async function(uuid){
  */
 exports.validateSelected = async function(){
     const current = ConfigManager.getSelectedAccount()
+    if(current.accessToken == "sry"){
+        loggerSuccess.log('Account access token is invalid.')
+        return true;
+    }
     const isValid = await Mojang.validate(current.accessToken, ConfigManager.getClientToken())
     if(!isValid){
         try {
