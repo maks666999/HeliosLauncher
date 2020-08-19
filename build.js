@@ -19,7 +19,7 @@ builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
         appId: 'moncraftlauncher',
-        productName: 'MonCraft Launcher',
+        productName: 'MonCraftLauncher',
         artifactName: '${productName}.${ext}',
         copyright: 'Helios Launcher Copyright © 2018-2020 Daniel Scalzi & Modified for MonCraft by CanExiOne',
         directories: {
