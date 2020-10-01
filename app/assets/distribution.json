@@ -1,17 +1,15 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.2",
   "rss": "",
   "servers": [
     {
       "id": "MonCraft-1.12.2",
-      "name": "MonCraft",
+      "name": "MonCraft)",
       "description": "MonCraft - Twój serwer Pixelmon",
-      "icon": "https://virtual-gaming.eu/moncraft/servericon1.png",
-      "version": "0.0.1",
-      "address": "pixelworldserv.maxc.pl",
+      "icon": "https://nebula.canexione.eu/moncraft/servericon1.png",
+      "version": "1.0.1",
+      "address": "moncraft.maxc.pl",
       "minecraftVersion": "1.12.2",
-      "discord": {
-      },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
@@ -22,7 +20,7 @@
           "artifact": {
             "size": 4884700,
             "MD5": "90734a5a713e24902d24c45c15caa42c",
-            "url": "https://virtual-gaming.eu/moncraft/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
+            "url": "https://nebula.canexione.eu/moncraft/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
           },
           "subModules": [
             {
@@ -32,7 +30,7 @@
               "artifact": {
                 "size": 32999,
                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
             {
@@ -42,7 +40,7 @@
               "artifact": {
                 "size": 247787,
                 "MD5": "f5ad16c7f0338b541978b0430d51dc83",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
               }
             },
             {
@@ -52,7 +50,7 @@
               "artifact": {
                 "size": 614590,
                 "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -62,117 +60,117 @@
               "artifact": {
                 "size": 1091208,
                 "MD5": "34d3537524a6c8c134e840e7be601569",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
               }
             },
             {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
               "name": "Minecraft Forge (akka-actor_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 746612,
-                "MD5": "25cb22c3078e9fb3f7a861c912924862",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar.pack.xz"
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
               }
             },
             {
-              "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+              "id": "com.typesafe:config:1.2.1@jar",
               "name": "Minecraft Forge (config)",
               "type": "Library",
               "artifact": {
-                "size": 56636,
-                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar.pack.xz"
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
               "name": "Minecraft Forge (scala-actors-migration_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 21324,
-                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
               "name": "Minecraft Forge (scala-compiler)",
               "type": "Library",
               "artifact": {
-                "size": 3076920,
-                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar.pack.xz"
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
               "name": "Minecraft Forge (scala-continuations-library_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 7956,
-                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                "size": 25364,
+                "MD5": "c7d01e5a88182df7f22b7418abb51085",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
               "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
               "type": "Library",
               "artifact": {
-                "size": 46140,
-                "MD5": "a8232db22a72a981de6b1399eb86dff7",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                "size": 206574,
+                "MD5": "daecef8fab296b764a8fb41fc07f2428",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
               "name": "Minecraft Forge (scala-library)",
               "type": "Library",
               "artifact": {
-                "size": 1474672,
-                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar.pack.xz"
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
               "name": "Minecraft Forge (scala-parser-combinators_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 85568,
-                "MD5": "2e50a7df17680daadacca69f07f8a16d",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
               "name": "Minecraft Forge (scala-reflect)",
               "type": "Library",
               "artifact": {
-                "size": 1070312,
-                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar.pack.xz"
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar.pack.xz",
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
               "name": "Minecraft Forge (scala-swing_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 205676,
-                "MD5": "e3928976c4994b114356b9d3489fe409",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar.pack.xz"
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
               }
             },
             {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
               "name": "Minecraft Forge (scala-xml_2.11)",
               "type": "Library",
               "artifact": {
-                "size": 217812,
-                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
               }
             },
             {
@@ -182,7 +180,7 @@
               "artifact": {
                 "size": 5762,
                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
               }
             },
             {
@@ -192,7 +190,7 @@
               "artifact": {
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             },
             {
@@ -202,7 +200,7 @@
               "artifact": {
                 "size": 318956,
                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
               }
             },
             {
@@ -212,7 +210,7 @@
               "artifact": {
                 "size": 2523218,
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
               }
             },
             {
@@ -222,79 +220,92 @@
               "artifact": {
                 "size": 54961,
                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://virtual-gaming.eu/moncraft/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "url": "https://nebula.canexione.eu/moncraft/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.forgemod:customnpcs:1.12@jar",
+          "id": "damageindicatorsmod:DamageIndicatorsMod:3.5.1@jar",
+          "name": "Damage Indicators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285416,
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/[1.12.2]DamageIndicatorsMod-3.5.1.jar",
+            "MD5": "09dd0cd435c1185b796b3557cbce6cdc"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
           "name": "CustomNPCs",
           "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": false
-          },
           "artifact": {
             "size": 9911871,
-            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7",
-            "url": "https://virtual-gaming.eu/moncraft/servers/MonCraft-1.12.2/forgemods/CustomNPCs_1.12.2-(05Jul20).jar"
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
           }
         },
         {
-          "id": "generated.forgemod:optifine:1.12.2_HD_U_F5@jar",
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
           "name": "OptiFine 1.12.2_HD_U_F5",
           "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
           "artifact": {
             "size": 2598821,
-            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-            "url": "https://virtual-gaming.eu/moncraft/servers/MonCraft-1.12.2/forgemods/OptiFine_1.12.2_HD_U_F5.jar"
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_F5.jar",
+            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "generated.forgemod:harvestcraft:1.12.2zg@jar",
+          "id": "com.pam:harvestcraft:1.12.2zg@jar",
           "name": "Pam's HarvestCraft",
           "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": false
-          },
           "artifact": {
             "size": 4912890,
-            "MD5": "e8e1ac67accdeea50116e1e92e592397",
-            "url": "https://virtual-gaming.eu/moncraft/servers/MonCraft-1.12.2/forgemods/Pam%27s+HarvestCraft+1.12.2zg.jar"
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/Pam%27s+HarvestCraft+1.12.2zg.jar",
+            "MD5": "e8e1ac67accdeea50116e1e92e592397"
           }
         },
         {
-          "id": "generated.forgemod:pixelmon:8.1.0@jar",
+          "id": "com.pixelmongenerations.core:pixelmon:8.1.2@jar",
           "name": "Pixelmon",
           "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": false
-          },
           "artifact": {
-            "size": 443876099,
-            "MD5": "5489658041b61d354ac5c3721c09676e",
-            "url": "https://virtual-gaming.eu/moncraft/servers/MonCraft-1.12.2/forgemods/PixelmonGenerations-1.12.2-8.1.0-universal.jar"
+            "size": 479014790,
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/PixelmonGenerations-1.12.2-8.1.2-universal.jar",
+            "MD5": "53c8e897820213cb939596d94a9cd8e0"
           }
         },
         {
-          "id": "generated.forgemod:variedcommodities:1.0@jar",
+          "id": "net.mcreator:seltaks_weapon_pack:1.0.0@jar",
+          "name": "Seltak's Weapon Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61834,
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/Too-Many-Weapons-Mod-Gaia-Edition-1.12.2.jar",
+            "MD5": "eb320682d8c474a7a9710fd988555e4e"
+          }
+        },
+        {
+          "id": "noppes.vc:variedcommodities:1.0@jar",
           "name": "Varied Commodities",
           "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": false
-          },
           "artifact": {
             "size": 1567926,
-            "MD5": "c4abbbf3e8705c5be1769f7617041803",
-            "url": "https://virtual-gaming.eu/moncraft/servers/MonCraft-1.12.2/forgemods/VariedCommodities_1.12.2(21nov19).jar"
+            "url": "https://nebula.canexione.eu/moncraft/servers/MonCraft-1.12.2/forgemods/required/VariedCommodities_1.12.2(21nov19).jar",
+            "MD5": "c4abbbf3e8705c5be1769f7617041803"
           }
         }
       ]
