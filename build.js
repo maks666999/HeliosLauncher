@@ -20,7 +20,7 @@ builder.build({
     config: {
         appId: 'moncraftlauncher',
         productName: 'MonCraftLauncher',
-        artifactName: '${productName}.${ext}',
+        artifactName: '${productName}-setup-${version}.${ext}',
         copyright: 'Helios Launcher Copyright © 2018-2020 Daniel Scalzi & Modified for MonCraft by CanExiOne',
         directories: {
             buildResources: 'build',

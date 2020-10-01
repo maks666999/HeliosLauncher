@@ -68,8 +68,8 @@ function bindFileSelectors(){
             if(!res.canceled) {
                 ele.previousElementSibling.value = res.filePaths[0]
                 if(isJavaExecSel) {
-                populateJavaExecDetails(ele.previousElementSibling.value)
-            }
+                    populateJavaExecDetails(ele.previousElementSibling.value)
+                }
             }
         }
     }

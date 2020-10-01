@@ -13,8 +13,8 @@ const loginEmailError       = document.getElementById('loginEmailError')
 const loginUsername         = document.getElementById('loginUsername')
 const loginPasswordError    = document.getElementById('loginPasswordError')
 const loginPassword         = document.getElementById('loginPassword')
-// const checkmarkContainer    = document.getElementById('checkmarkContainer')
-// const loginRememberOption   = document.getElementById('loginRememberOption')
+const checkmarkContainer    = document.getElementById('checkmarkContainer')
+const loginRememberOption   = document.getElementById('loginRememberOption')
 const loginButton           = document.getElementById('loginButton')
 const loginForm             = document.getElementById('loginForm')
 
@@ -147,11 +147,11 @@ function formDisabled(v){
     loginUsername.disabled = v
     loginPassword.disabled = v
     if(v){
-        //checkmarkContainer.setAttribute('disabled', v)
+        checkmarkContainer.setAttribute('disabled', v)
     } else {
-        //checkmarkContainer.removeAttribute('disabled')
+        checkmarkContainer.removeAttribute('disabled')
     }
-    //loginRememberOption.disabled = v
+    loginRememberOption.disabled = v
 }
 
 /**
