@@ -1,13 +1,13 @@
 {
-  "name": "moncraftlauncher",
+  "name": "skymonlauncher",
   "version": "1.8.0",
-  "productName": "MonCraftLauncher",
+  "productName": "SkyMonLauncher",
   "description": "Modified Helios Launcher",
   "author": "Helios Launcher - Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/maks666999/MonCraftLauncher",
+  "homepage": "https://github.com/maks666999/SkyMonLauncher",
   "bugs": {
-    "url": "https://github.com/maks666999/MonCraftLauncher/issues"
+    "url": "https://github.com/maks666999/SkyMonLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maks666999/MonCraftLauncher.git"
+    "url": "git+https://github.com/maks666999/SkyMonLauncher.git"
   }
 }

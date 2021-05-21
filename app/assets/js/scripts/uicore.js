@@ -48,7 +48,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/maks666999/MonCraftLauncher/releases/download/v${info.version}/moncraftlauncher-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/maks666999/SkyMonLauncher/releases/download/v${info.version}/skymonlauncher-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 
