@@ -13,7 +13,8 @@
       "description": "SkyMon - Twój serwer Pixelmon",
       "icon": "https://nebula.canexione.eu/skymon/repo/servericon1.png",
       "version": "1.0.0",
-      "address": "skymon.csrv.pl:25565",
+      "address": "skymon.csrv.pl:50747",
+      "port": 50747,
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "1.12.2 SkyMon",
